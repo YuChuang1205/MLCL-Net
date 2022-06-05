@@ -5,7 +5,7 @@
 
 **Note that we have also uploaded the final weights and the final detection results to the "sample" folder, and the results correspond to those in the paper.**  
 
-In ""sample" folder, "finally_model" folder includes the finally model; "test_ground_truth_label" folder includes the ground truth labels; "test_image" includes the samples that needs to be tested； "test_results" includes the results after the test samples have been tested by the finally model, and the results correspond to those in the paper.
+**In ""sample" folder, "finally_model" folder includes the finally model; "test_ground_truth_label" folder includes the ground truth labels; "test_image" includes the samples that needs to be tested； "test_results" includes the results after the test samples have been tested by the finally model, and the results correspond to those in the paper.**
 
 
 Our code has also been experimentally verified on the infrared small target tracking task of the third "空天杯" held by the National University of Defense Technology. The experimental results show that, for only infrared small target detection of continuous frames with few scenes, the code also has a relatively good effect in detection performance. 
