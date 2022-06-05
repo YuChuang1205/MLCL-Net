@@ -5,8 +5,8 @@ Created on 2021年4月28日
 @author: 余创
 '''
 
-from model import *
-from utils import *
+#from model import *
+#from utils import *
 import os
 import cv2
 
@@ -23,7 +23,7 @@ def soft_acc(y_true, y_pred):
 root_path = os.path.abspath('.')
 pic_path = os.path.join(root_path,"data/test/image")
 pic_out_path = os.path.join(root_path,"data/test_results")
-make_dir(pic_out_path)
+#make_dir(pic_out_path)
 
 model_path = os.path.join(root_path,"logs/seg_model_best.hdf5")
 model = load_model(model_path,custom_objects={'soft_loss':soft_loss,'soft_acc':soft_acc})
