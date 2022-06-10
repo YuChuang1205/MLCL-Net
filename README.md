@@ -9,6 +9,10 @@
 
 **3.In addition, for small objects with large sizes in some datasets, you can also choose to fuse LCL(7), LCL(9) and so on. I have commented them out in the code. For details, you can look at "model.py".**
 
+<!-- #### Answers to questions asked by some researchers
+For MLCL-Net, will there be a large fluctuation in the results?
+Reply:  -->
+
 
 <!-- **4. I am open to collaboration opportunities (anytime & anywhere & any type). If you need collaborative research, please email me (yuchuang@sia.cn). Please be sure to state your name, unit, and some representative research works in the email.** -->
 
