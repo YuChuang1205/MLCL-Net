@@ -12,6 +12,7 @@
 <!-- **4. I am open to collaboration opportunities. If you need collaborative research, please email me (yuchuang@sia.cn). Please be sure to state your name, unit, and some representative research works in the email. If time permits, we can team up for competitions or explore research together.**  -->
 
 
+
 ### Answers to questions asked by some researchers (email)
 **For MLCL-Net, will there be a large fluctuation in the results?**  
 **Reply:** Due to the small number of SIRST data samples and many scenes, the results of most deep learning methods will fluctuate to a certain extent without any reasonable training strategy. You need to use some reasonable training strategies to make the results as stable as possible. The multiple experimental results of our project show that the fluctuation is about 0.01 (The fluctuations of the results of other ablation experiments in the paper are basically the same.). The complete project code will be open sourced in the future. At the same time, our latest work ([[ALCL-Net](https://ieeexplore.ieee.org/document/9785618)]) is more stable and efficient. 
