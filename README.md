@@ -9,9 +9,9 @@
 
 **3.In addition, for small objects with large sizes in some datasets, you can also choose to fuse LCL(7), LCL(9) and so on. I have commented them out in the code. For details, you can look at "model.py".**
 
-<!-- #### Answers to questions asked by some researchers
+#### Answers to questions asked by some researchers
 For MLCL-Net, will there be a large fluctuation in the results?
-Reply:  -->
+Reply: Due to the small number of SIRST data samples and many scenes, the results of most deep learning methods will fluctuate to a certain extent without any reasonable training strategy. You need to use some common training strategies to make the results as stable as possible. The multiple experimental results of our project show that the fluctuation is about 0.01. The complete project code will be open sourced in the future. At the same time, for infrared small target detection, the effect of our latest work **ALCL-Net** is more stable and efficient.
 
 
 <!-- **4. I am open to collaboration opportunities (anytime & anywhere & any type). If you need collaborative research, please email me (yuchuang@sia.cn). Please be sure to state your name, unit, and some representative research works in the email.** -->
