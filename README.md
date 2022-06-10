@@ -7,7 +7,6 @@
 
 **2.In ""sample" folder, "finally_model" folder includes the finally model; "test_ground_truth_label" folder includes the ground truth labels; "test_image" includes the samples that needs to be tested； "test_results" includes the results after the test samples have been tested by the finally model, and the results correspond to those in the paper.**
 
-**3.In addition, for small objects with large sizes in some datasets, you can also choose to fuse LCL(7), LCL(9) and so on. I have commented them out in the code. For details, you can look at "model.py".**
 
 <!-- **4. I am open to collaboration opportunities (anytime & anywhere & any type). If you need collaborative research, please email me (yuchuang@sia.cn). Please be sure to state your name, unit, and some representative research works in the email.** -->
 
