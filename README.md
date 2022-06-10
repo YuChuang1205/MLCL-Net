@@ -9,7 +9,11 @@
 
 **3.In addition, for small objects with large sizes in some datasets, you can also choose to fuse LCL(7), LCL(9) and so on. I have commented them out in the code. For details, you can look at "model.py".**
 
-### Answers to questions asked by some researchers
+It is worth mentioning that the LCL module we mentioned is deeply influenced by the idea of PCM. Our purpose is to build a simple and efficient end-to-end full convolution infrared small target detection network. there are still a little differences between LCL and PCM. After all, the deep learning network structure has its own characteristics. But we consider the LCL module to be an approximate generalized representation of PCM. Compared with ANN, the essence of convolutional operation is to learn the relationship between local pixels. The designed LCL module can more clearly highlight the idea of local contrast. At the same time, the (M)LCL module effect is obvious.
+
+
+
+### Answers to questions asked by some researchers (email)
 **For MLCL-Net, will there be a large fluctuation in the results?**  
 **Reply:** Due to the small number of SIRST data samples and many scenes, the results of most deep learning methods will fluctuate to a certain extent without any reasonable training strategy. You need to use some common training strategies to make the results as stable as possible. The multiple experimental results of our project show that the fluctuation is about 0.01. The complete project code will be open sourced in the future. At the same time, for infrared small target detection, the effect of our latest work **ALCL-Net** is more stable and efficient.
 
@@ -20,7 +24,6 @@
 When debugging code for others, I found an interesting phenomenon. When the original SIRST dataset is not directly resized to 512×512 pixels, but directly filled with "0" at the bottom right, directly using this code has higher IoU and nIoU. I only experimented it once, and the results were 0.793 and 0.781. We consider that the direct resize method is not very friendly to the target boundary of the original image. However, for a more rigorous comparison, the direct resize method is still used, which is consistent with the existing deep learning-based methods. Because the performance is relative, it is more meaningful to test under the same dataset. When you conduct a comparative experiment on the SIRST dataset, please be sure to use the resize method, or directly use the dataset I made in the link above, so that the results are comparable. 
 
 
-It is worth mentioning that the LCL module we mentioned is deeply influenced by the idea of PCM. Our purpose is to build a simple and efficient end-to-end full convolution infrared small target detection network. there are still a little differences between LCL and PCM. After all, the deep learning network structure has its own characteristics. But we consider the LCL module to be an approximate generalized representation of PCM. Compared with ANN, the essence of convolutional operation is to learn the relationship between local pixels. The designed LCL module can more clearly highlight the idea of local contrast. At the same time, the (M)LCL module effect is obvious.
 
 
 
