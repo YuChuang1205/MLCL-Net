@@ -11,7 +11,7 @@
 
 
 
-### Answers to questions asked by some researchers (email)
+### Answers to questions asked by some researchers
 
 **Data?**  
 When debugging code for others, I found an interesting phenomenon. When the original SIRST dataset is not directly resized to 512×512 pixels, but directly filled with "0" at the bottom right, directly using this code has higher IoU and nIoU. I only experimented it once, and the results were 0.793 and 0.781. We consider that the direct resize method is not very friendly to the target boundary of the original image. However, for a more rigorous comparison, the direct resize method is still used, which is consistent with the existing deep learning-based methods. Because the performance is relative, it is more meaningful to test under the same dataset. When you conduct a comparative experiment on the SIRST dataset, please be sure to use the resize method, or directly use the dataset I made in the link above, so that the results are comparable. 
