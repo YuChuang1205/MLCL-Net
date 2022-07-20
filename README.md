@@ -1,8 +1,6 @@
 ### MLCL-Net code  
 #### Paper: **Chuang Yu**, Yunpeng Liu*, Shuhang Wu, Zhuhua Hu, Xin Xia, Deyan Lan, Xin Liu. Infrared small target detection based on multiscale local contrast learning networks[J]. Accepted by *Infrared Physics & Technology*. 2022. ([[paper](https://doi.org/10.1016/j.infrared.2022.104107)])  
 
-#### We also uploaded the complete dataset [[link](https://github.com/YuChuang1205/SIRST-dataset-MLCL-Net-version)] we used.
-
 **1.Note that we have also uploaded the final weights and the final detection results to the "sample" folder, and the results correspond to those in the paper.**  
 
 **2.In "sample" folder, "finally_model" folder includes the finally model; "test_ground_truth_label" folder includes the ground truth labels; "test_image" includes the samples that needs to be tested； "test_results" includes the results after the test samples have been tested by the finally model, and the results correspond to those in the paper.**
