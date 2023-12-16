@@ -13,7 +13,7 @@
 ### Answers to questions asked by some researchers
 
 **For MLCL-Net, will there be a large fluctuation in the results?**  
-**Reply:** Due to the small number of SIRST data samples and many scenes, the results of most deep learning methods will fluctuate to a certain extent without any reasonable training strategy. You need to use some reasonable training strategies (such as DA) to make the results as stable as possible. The multiple experimental results of our project show that the fluctuation is about 0.01 (The fluctuations of the results of other ablation experiments in the paper are basically the same.). The complete project code will be open sourced in the future. At the same time, our latest work ([[ALCL-Net](https://ieeexplore.ieee.org/document/9785618)]) is more stable and efficient. 
+**Reply:** Due to the small number of SIRST data samples and many scenes, the results of most deep learning methods will fluctuate to a certain extent without any reasonable training strategy. You need to use some reasonable training strategies (such as DA) to make the results as stable as possible. The multiple experimental results of our project show that the fluctuation is about 0.01 (The fluctuations of the results of other ablation experiments in the paper are basically the same.). The complete project code will be open sourced in the future. At the same time, our latest work **(ALCL-Net)** ([[paper](https://ieeexplore.ieee.org/document/9785618)]) ([[code](https://github.com/YuChuang1205/ALCL-Net)]) and **(GGL-Net)** ([[paper](https://ieeexplore.ieee.org/abstract/document/10230271)]) is more stable and efficient. 
 
 
 **Data?**  
@@ -23,6 +23,5 @@ When debugging code for others, I found an interesting phenomenon. When the orig
 ### Other supplements
 It is worth mentioning that the LCL module we mentioned is deeply influenced by the idea of PCM. Our purpose is to build a simple and efficient end-to-end full convolution infrared small target detection network. there are still a little differences between LCL and PCM. After all, the deep learning network structure has its own characteristics. But we consider the LCL module to be an approximate generalized representation of PCM. Compared with ANN, the essence of convolutional operation is to learn the relationship between local pixels. The designed LCL module can more clearly highlight the idea of local contrast. At the same time, the (M)LCL module effect is obvious.  
 
-### In addition, everyone is welcome to check out our latest research work: Gradient-Guided Learning Network for Infrared Small Target Detection. (GGL-Net) ([[paper](https://ieeexplore.ieee.org/abstract/document/10230271)])  
 
 
