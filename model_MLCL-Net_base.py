@@ -197,7 +197,7 @@ def weights_init(m):
 
 if __name__ == '__main__':
     model = MLCLNet_base()
-    x = torch.rand(8, 1, 512, 512)
+    x = torch.rand(8, 3, 512, 512)
     outs = model(x)
     print(outs.size())
 
