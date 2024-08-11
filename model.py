@@ -4,7 +4,6 @@ def MLCLNet(pretrained_weights = None,input_size = (512,512,3)):
     conv1_1 = BatchNormalization()(conv1_1)
     conv1_1 = ReLU()(conv1_1)
 
-
     conv1_2 = Conv2D(16, 3, padding = 'same', kernel_initializer = 'he_normal')(conv1_1)
     conv1_2 = BatchNormalization()(conv1_2)
     conv1_2 = ReLU()(conv1_2)   
