@@ -6,7 +6,6 @@
 import torch
 import torch.nn as nn
 
-
 class Resnet1(nn.Module):
     def __init__(self, in_channel, out_channel):
         super(Resnet1, self).__init__()
