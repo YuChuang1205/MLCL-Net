@@ -1,7 +1,7 @@
 ### MLCL-Net code    
 #### Paper: **Chuang Yu**, Yunpeng Liu*, Shuhang Wu, Zhuhua Hu, Xin Xia, Deyan Lan, Xin Liu. Infrared small target detection based on multiscale local contrast learning networks[J]. Accepted by *Infrared Physics & Technology*. 2022. ([[paper](https://doi.org/10.1016/j.infrared.2022.104107)])  
 
-### !!! The pytorch version of MLCL-Net can be found in "model_MLCL-Net_base.py" and "model_MLCL-Net_small.py".
+### !!! For the training and testing of MLCL-Net, we have integrated it into our complete framework demo ([[link](https://github.com/YuChuang1205/MSDA-Net)]) for direct use.
 
 #### We also uploaded the complete dataset [[link](https://github.com/YuChuang1205/SIRST-dataset-MLCL-Net-version)] we used.  
 
